@@ -1,0 +1,193 @@
+
+.cardSetting {
+  /* make it responsive */
+
+    max-width: 83px;
+    width: 100%;
+  height: 80%;
+
+
+  /* div height to be the same as width*/
+
+  
+  
+  /* Centering on image`s center*/
+  background-position-y: center;
+  background-position-x: left;
+  background-repeat: no-repeat;
+
+  /* it makes the clue thing, takes smaller dimension to fill div */
+  background-size: cover;
+
+}
+
+.placeCard {
+  background-image: url('../../public/Group1.png');
+  margin: auto;
+}
+
+.sexyCard:hover {
+  border-top: 2px solid yellow;
+  border-bottom: 2px solid yellow;
+} 
+
+
+/*copious amount of hardcoding to relate each different card to their image*/
+.clubsA {
+    background-image: url('../../public/A_of_clubs.png');
+}
+.clubs2 {
+    background-image: url('../../public/2_of_clubs.png');
+}
+.clubs3 {
+    background-image: url('../../public/3_of_clubs.png');
+}
+.clubs4 {
+    background-image: url('../../public/4_of_clubs.png');
+}
+.clubs5 {
+    background-image: url('../../public/5_of_clubs.png');
+}
+.clubs6 {
+    background-image: url('../../public/6_of_clubs.png');
+}
+.clubs7 {
+    background-image: url('../../public/7_of_clubs.png');
+}
+.clubs8 {
+    background-image: url('../../public/8_of_clubs.png');
+}
+.clubs9 {
+    background-image: url('../../public/9_of_clubs.png');
+}
+.clubsJ {
+    background-image: url('../../public/J_of_clubs.png');
+}
+.clubsQ {
+    background-image: url('../../public/Q_of_clubs.png');
+}
+.clubsK {
+    background-image: url('../../public/K_of_clubs.png');
+}
+.clubs10 {
+    background-image: url('../../public/10_of_clubs.png');
+}
+.heartsA {
+    background-image: url('../../public/A_of_hearts.png');
+  }
+  .hearts2 {
+    background-image: url('../../public/2_of_hearts.png');
+  }
+  .hearts3 {
+    background-image: url('../../public/3_of_hearts.png');
+  }
+  .hearts4 {
+    background-image: url('../../public/4_of_hearts.png');
+  }
+  .hearts5 {
+    background-image: url('../../public/5_of_hearts.png');
+  }
+  .hearts6 {
+    background-image: url('../../public/6_of_hearts.png');
+  }
+  .hearts7 {
+    background-image: url('../../public/7_of_hearts.png');
+  }
+  .hearts8 {
+    background-image: url('../../public/8_of_hearts.png');
+  }
+  .hearts9 {
+    background-image: url('../../public/9_of_hearts.png');
+  }
+  .heartsJ {
+    background-image: url('../../public/J_of_hearts.png');
+  }
+  .heartsQ {
+    background-image: url('../../public/Q_of_hearts.png');
+  }
+  .heartsK {
+    background-image: url('../../public/K_of_hearts.png');
+  }
+  .hearts10 {
+    background-image: url('../../public/10_of_hearts.png');
+  }
+  
+.spadesA {
+    background-image: url('../../public/A_of_spades.png');
+  }
+  .spades2 {
+    background-image: url('../../public/2_of_spades.png');
+  }
+  .spades3 {
+    background-image: url('../../public/3_of_spades.png');
+  }
+  .spades4 {
+    background-image: url('../../public/4_of_spades.png');
+  }
+  .spades5 {
+    background-image: url('../../public/5_of_spades.png');
+  }
+  .spades6 {
+    background-image: url('../../public/6_of_spades.png');
+  }
+  .spades7 {
+    background-image: url('../../public/7_of_spades.png');
+  }
+  .spades8 {
+    background-image: url('../../public/8_of_spades.png');
+  }
+  .spades9 {
+    background-image: url('../../public/9_of_spades.png');
+  }
+  .spadesJ {
+    background-image: url('../../public/J_of_spades.png');
+  }
+  .spadesQ {
+    background-image: url('../../public/Q_of_spades.png');
+  }
+  .spadesK {
+    background-image: url('../../public/K_of_spades.png');
+  }
+  .spades10 {
+    background-image: url('../../public/10_of_spades.png');
+  }
+
+  .diamondsA {
+    background-image: url('../../public/A_of_diamonds.png');
+  }
+  .diamonds2 {
+    background-image: url('../../public/2_of_diamonds.png');
+  }
+  .diamonds3 {
+    background-image: url('../../public/3_of_diamonds.png');
+  }
+  .diamonds4 {
+    background-image: url('../../public/4_of_diamonds.png');
+  }
+  .diamonds5 {
+    background-image: url('../../public/5_of_diamonds.png');
+  }
+  .diamonds6 {
+    background-image: url('../../public/6_of_diamonds.png');
+  }
+  .diamonds7 {
+    background-image: url('../../public/7_of_diamonds.png');
+  }
+  .diamonds8 {
+    background-image: url('../../public/8_of_diamonds.png');
+  }
+  .diamonds9 {
+    background-image: url('../../public/9_of_diamonds.png');
+  }
+  .diamondsJ {
+    background-image: url('../../public/J_of_diamonds.png');
+  }
+  .diamondsQ {
+    background-image: url('../../public/Q_of_diamonds.png');
+  }
+  .diamondsK {
+    background-image: url('../../public/K_of_diamonds.png');
+  }
+  .diamonds10 {
+    background-image: url('../../public/10_of_diamonds.png');
+  }

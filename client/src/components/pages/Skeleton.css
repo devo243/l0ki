@@ -1,0 +1,55 @@
+/* Fill me in :) */
+
+/* Root */
+:root {
+    --primary: blue;
+    --background-color: lightblue; /* Make this great again  */
+
+    --xs: 4px;
+    --s: 8px;
+    --m: 16px;
+    --l: 24px;
+
+}
+
+html, body {
+    max-width: 100%;
+}
+
+.skeleton-buttons button {
+    margin-top: 100000px;
+    display: flex;
+    flex-direction: column;
+  
+    
+}
+/* CARDS CSS SECTION NEEDS A CRAP TON OF CHANGES OMG 
+I recommend making a separate Card.css folder because a ton of changes are needed
+this is just a basic outline that you can follow (if you want) */
+
+.card {
+    padding: 20px 20px 20px 20px;
+    margin-top: 10px;
+    background-color: white;
+}
+.card-spades {
+    color: black;
+}
+
+.card-clubs {
+    color: black;
+}
+
+.card-hearts {
+    color: red;
+}
+
+.card-diamonds {
+    color: red;
+}
+
+/* RULES SECTION */
+
+
+/* Fill me in :) */
+

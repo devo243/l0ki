@@ -1,0 +1,120 @@
+.container {
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.item {
+    flex-grow: 1;
+    width: 20%;
+    height: auto;
+    padding-bottom: 200px;
+    background: white;
+    text-align: center;
+}
+
+.item + .item {
+    margin-left: 2%;
+}
+
+.beautiful-input {
+    display: inline-block;
+    align-items: center;
+    padding:0.5em 3em;
+    border:0.16em solid black;
+    margin:0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-weight:400;
+    color:black;
+    background-color: transparent;
+    text-align:center;
+    transition: all 0.15s;
+}
+
+button.button5{
+    display:inline-block;
+    padding:1.38em 4.8em;
+    border:0.2em solid #000000;
+    margin-top:1em;
+    margin-bottom:  0.2em;
+    
+    border-radius:0.2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-weight:500;
+   
+    margin-left: auto;
+    margin-right: auto;
+    color: #000000;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    background-color:#E2E2DA;;
+    text-align:center;
+    transition: all 0.15s;
+    font-family: 'Texturina', serif;
+    font-size: medium;
+
+}
+button.button5:hover{
+    text-shadow: 0 0 2em rgba(255,255,255,1);
+    background-color:#c4c4c4;
+
+}
+
+button.button2{
+    display:inline-block;
+    padding:0.5em 3em;
+    border:0.2em solid #76A185;
+    border-radius: 3px;
+    margin:0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-weight:400;
+    color: white;
+    background-color:  #76A185;
+    
+    text-align:center;
+    transition: all 0.15s;
+}
+button.button2:hover{
+    color:#DDDDDD;
+    border-color:#DDDDDD;
+}
+button.button2:active{
+    color:#BBBBBB;
+    border-color:#BBBBBB;
+}
+
+.bigboybutton {
+    animation-name: changeColor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    width: 200px;
+    height: 70px;
+    border-color: #d4d4d4;
+    border-radius: 5px;
+
+}
+
+@keyframes changeColor {
+    0% {
+        background: #ee6055;
+    }
+    25% {
+        background: #60d394;
+    }
+    50% {
+        background: #aaf683;
+    }
+    75% {
+        background: #ffd97d;
+    }
+    100% {
+        background: #ff9b85;
+    }
+}

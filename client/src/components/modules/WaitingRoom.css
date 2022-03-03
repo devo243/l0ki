@@ -1,0 +1,31 @@
+.WaitingRoom-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2% 2% 2% 2%;
+}
+
+.WaitingRoom-item {
+    width: 48%;
+    height: auto;
+    padding-bottom: 200px;
+    background: #d4d4d4;
+    text-align: center;
+    margin-bottom: 2%;
+    border-radius: 10px;
+}
+.WaitingRoom-third-item {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 100%;
+}
+
+.WaitingRoom-vertical {
+    background: #d4d4d4;
+    flex-wrap: nowrap;
+    border-radius: 10px;
+    height: 300px;
+
+}

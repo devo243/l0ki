@@ -1,0 +1,10 @@
+.rule-container {
+    color: white;
+    background-color:  #76A185;
+    border-radius: var(--xs);
+    margin-top: 20px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding: 20px 20px 20px 20px;
+
+}

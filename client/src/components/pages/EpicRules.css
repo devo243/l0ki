@@ -1,0 +1,26 @@
+.EpicRules-background {
+    height: 100vh;
+    background-color: black!important;
+    background: black!important;
+}
+
+.EpicRules-alpha {
+}
+
+.EpicRules-container {
+    background-color: black;
+    border-radius: var(--xs);
+    margin-top: 25px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding: 20px 20px 20px 20px;
+    color: #4deeea;
+    box-shadow:
+            0 0 50px #fff,            /* outer white */
+        -10px 0 80px #f0f,        /* outer left magenta */
+        10px 0 80px #0ff;         /* outer right cyan */
+}
+
+.EpicRules-text {
+    color: #4deeea;
+}
